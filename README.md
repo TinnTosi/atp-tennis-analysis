@@ -19,6 +19,14 @@ For each player, the analysis calculates:
 
 Players are then ranked by total wins, and the **Top 50** are exported as a new CSV file.
 
+## Data Source
+
+The historical ATP match data used in this project comes from the **ATP Tennis 2000–2026 Daily Update** dataset available on Kaggle.
+
+The dataset is licensed under **CC0: Public Domain**.
+
+[View the dataset on Kaggle](https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull)
+
 ## Architecture
 
 The workflow connects four AWS services:
